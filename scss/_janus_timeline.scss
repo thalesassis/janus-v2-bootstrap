@@ -1,0 +1,58 @@
+.list-item-timeline {
+  &::before {
+    position: absolute;
+    left: .23rem;
+    z-index: 0;
+    display: block;
+    height: 100%;
+    content: "";
+    border-left: 1px solid var(--#{$prefix}gray-300);
+  }
+  &:first-child {
+    &::before {
+      bottom: 0;
+      height: 96%;
+      height: calc(100% - 8px); // stylelint-disable-line function-disallowed-list
+    }
+    &:last-child {
+      &::before {
+        display: none;
+      }
+    }
+  }
+  &:last-child {
+    &::before {
+      bottom: top;
+      height: .5rem;
+    }
+    .list-item-timeline-body {
+      &::before {
+        background: var(--#{$prefix}gray-300);
+        border: 0;
+      }
+    }
+  }
+}
+
+.list-item-timeline-body {
+  z-index: 10;
+
+  &::before {
+    position: absolute;
+    top: .4rem;
+    left: 0;
+    display: block;
+    width: 8px;
+    height: 8px;
+    content: "";
+    background: var(--#{$prefix}white);
+    border: 1px solid var(--#{$prefix}gray-300);
+    border-radius: 50%; // stylelint-disable-line property-disallowed-list
+  }
+}
+
+.list-item-timeline:first-child .list-item-timeline-body::before,
+.list-item-timeline:first-child:last-child .list-item-timeline-body::before {
+  background: var(--#{$prefix}primary);
+  border: 0;
+}

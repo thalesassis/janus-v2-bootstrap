@@ -1,0 +1,86 @@
+.avatar {
+  min-width: 24px;
+  height: 24px;
+  padding: 0;
+  background-color: var(--#{$prefix}gray-600);
+  border: 0;
+
+  &.avatar-text {
+    @include font-size($janus-avatar-font-size);
+    font-weight: $font-weight-semibold;
+    line-height: $janus-avatar-line-height;
+    vertical-align: top;
+  }
+
+  &.avatar-image {
+    overflow: hidden;
+    border: 2px solid $gray-100;
+
+    img {
+      height: 100%;
+      vertical-align: top;
+    }
+  }
+
+  &.avatar-icon {
+    svg {
+      width: 100%;
+      height: 100%;
+      padding: .25rem;
+      vertical-align: top;
+    }
+
+    &.avatar-lg {
+      svg {
+        padding: .5rem;
+      }
+    }
+
+    &.avatar-xl {
+      svg {
+        padding: .75rem;
+      }
+    }
+  }
+
+  &.avatar-sm {
+    width: 24px;
+    height: 24px;
+    font-size: .5rem;
+    line-height: 1.5rem;
+
+    svg {
+      stroke-width: 2;
+    }
+  }
+
+  &.avatar-md {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+
+    svg {
+      stroke-width: 1.25;
+    }
+  }
+
+  &.avatar-lg {
+    width: 64px;
+    height: 64px;
+    font-size: 1.5rem;
+
+    svg {
+      stroke-width: 1;
+    }
+  }
+
+  &.avatar-xl {
+    width: 96px;
+    height: 96px;
+    font-size: 2rem;
+
+    svg {
+      stroke-width: .75;
+    }
+  }
+}

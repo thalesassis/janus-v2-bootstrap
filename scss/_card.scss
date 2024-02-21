@@ -106,13 +106,35 @@
 .card-header {
   padding: var(--#{$prefix}card-cap-padding-y) var(--#{$prefix}card-cap-padding-x);
   margin-bottom: 0; // Removes the default margin-bottom of <hN>
+  font-size: $janus-font-size-small;
+  font-weight: $font-weight-semibold;
+  line-height: $janus-card-title-line-height;
   color: var(--#{$prefix}card-cap-color);
   background-color: var(--#{$prefix}card-cap-bg);
-  border-bottom: var(--#{$prefix}card-border-width) solid var(--#{$prefix}card-border-color);
 
   &:first-child {
     @include border-radius(var(--#{$prefix}card-inner-border-radius) var(--#{$prefix}card-inner-border-radius) 0 0);
   }
+
+  .card-header-icon {
+
+    span {
+      margin-right: .75rem;
+      color: #fff;
+      @include border-radius(.25rem);
+
+      svg {
+        margin: $input-btn-padding-y-lg;
+      }
+    }
+  }
+
+  .card-header-text {
+    position: relative;
+    top: $dropdown-spacer;
+    left: (-$dropdown-spacer);
+  }
+
 }
 
 .card-footer {

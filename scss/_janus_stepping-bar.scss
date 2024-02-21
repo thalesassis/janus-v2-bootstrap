@@ -1,0 +1,99 @@
+.list-steps {
+  counter-reset: li;
+}
+
+.list-steps-item-body {
+  &::before {
+    position: absolute;
+    left: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    color: #000;
+    content: counter(li);
+    counter-increment: li;
+    background: #eee;
+    border-radius: 50%; // stylelint-disable-line property-disallowed-list
+  }
+  p {
+    position: relative;
+    top: 5px;
+    display: inline;
+  }
+}
+
+.list-steps-item {
+  &.selected {
+    .list-steps-item-body::before {
+      color: var(--#{$prefix}white);
+      background: var(--#{$prefix}primary);
+    }
+  }
+  &.completed {
+    .list-steps-item-body::before {
+      text-indent: -999999px;
+      background-color: var(--#{$prefix}success);
+      background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' class='icon icon-tabler icon-tabler-check' width='20' height='20' viewBox='0 0 24 24' stroke-width='2' stroke='%23ffffff' fill='none' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath stroke='none' d='M0 0h24v24H0z' fill='none'/%3e%3cpath d='M5 12l5 5l10 -10' /%3e%3c/svg%3e");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+
+.steps-vertical {
+  .list-steps-item {
+    &:last-child {
+      &::before{
+        display: none;
+      }
+    }
+    &::before {
+      position: absolute;
+      top: 1rem;
+      left: 1.25rem;
+      z-index: 0;
+      display: block;
+      height: 100%;
+      content: "";
+      border-left: 1px solid var(--#{$prefix}gray-300);
+    }
+  }
+  .list-steps-item-body {
+    margin-left: 2.25rem;
+  }
+}
+
+.steps-horizontal {
+  overflow-x: auto;
+
+  .list-steps-item {
+    &:last-child {
+      &::before {
+        width: 50%;
+      }
+    }
+    &:first-of-type {
+      &::before {
+        left: 50%;
+      }
+    }
+    &::before {
+      position: absolute;
+      top: 1.75rem;
+      z-index: 0;
+      display: flex;
+      width: 100%;
+      content: "";
+      border-top: 1px solid var(--#{$prefix}gray-300);
+    }
+  }
+  .list-steps-item-body {
+    &::before {
+      position: relative;
+      left: unset;
+      margin: 0 auto;
+    }
+  }
+}

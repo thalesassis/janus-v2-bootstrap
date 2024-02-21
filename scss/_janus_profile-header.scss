@@ -1,0 +1,29 @@
+.profile-header {
+  .profile-header-logo {
+    @include media-breakpoint-up(md) {
+      display: inline-block;
+    }
+    .avatar {
+      margin-bottom: 40px;
+      @include media-breakpoint-up(md) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .profile-header-body {
+    @include media-breakpoint-up(md) {
+      display: inline-block;
+    }
+  }
+
+  .profile-header-primary-actions {
+    @include media-breakpoint-up(md) {
+      .btn-toolbar {
+        justify-content: flex-end;
+        margin-top: -50px;
+      }
+    }
+  }
+
+}

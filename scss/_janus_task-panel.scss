@@ -1,0 +1,15 @@
+.list-on-hover li:hover {
+  background: $light;
+}
+
+@include media-breakpoint-up(sm) {
+  .show-on-focus {
+    opacity: 0;
+  }
+}
+
+.list-on-hover li:hover .show-on-focus,
+.show-on-focus:focus-within,
+.show-on-focus:hover {
+  opacity: 1;
+}
