@@ -101,8 +101,9 @@ $component-active-color:      $white !default;
 $component-active-bg:         $primary !default;
 
 $modal-backdrop-opacity:      .15 !default; 
-$modal-content-box-shadow-xs: $box-shadow;
-$modal-content-box-shadow-sm-up: $box-shadow;
+$modal-content-box-shadow-xs: $box-shadow-lg;
+$modal-content-box-shadow-sm-up: $box-shadow-lg;
+$dropdown-box-shadow: $box-shadow-lg;
 
 $alert-bg-scale:              -87% !default;
 $alert-border-scale:          0% !default;
@@ -117,7 +118,7 @@ $btn-border-radius:           $janus-border-radius-lg !default;
 $btn-border-radius-lg:        $janus-border-radius-lg !default;
 $btn-border-radius-sm:        $janus-border-radius-sm !default;
 
-//$btn-box-shadow:              none !default;
+$btn-box-shadow:              none !default;
 
 $font-size-base:              $janus-font-size-base !default;
 $btn-font-size-lg:            $janus-font-size-base !default;
