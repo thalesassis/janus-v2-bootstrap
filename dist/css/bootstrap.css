@@ -3372,7 +3372,7 @@ textarea.form-control-lg {
   --bs-btn-border-color: transparent;
   --bs-btn-border-radius: 0.188rem;
   --bs-btn-hover-border-color: transparent;
-  --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  --bs-btn-box-shadow: none;
   --bs-btn-disabled-opacity: 1;
   --bs-btn-focus-shadow-rgb: 14, 98, 185;
   --bs-btn-focus-box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 3px rgba(var(--bs-btn-focus-shadow-rgb), 1);
@@ -4381,7 +4381,7 @@ textarea.form-control-lg {
   --bs-dropdown-inner-border-radius: calc(0.188rem - var(--bs-border-width));
   --bs-dropdown-divider-bg: rgb(236, 236, 236);
   --bs-dropdown-divider-margin-y: 0.5rem;
-  --bs-dropdown-box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.5);
+  --bs-dropdown-box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.3);
   --bs-dropdown-link-color: var(--bs-body-color);
   --bs-dropdown-link-hover-color: var(--bs-body-color);
   --bs-dropdown-link-hover-bg: var(--bs-tertiary-bg);
@@ -6721,7 +6721,7 @@ textarea.form-control-lg {
   --bs-modal-border-color: transparent;
   --bs-modal-border-width: var(--bs-border-width);
   --bs-modal-border-radius: 0.25rem;
-  --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+  --bs-modal-box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.3);
   --bs-modal-inner-border-radius: calc(0.25rem - (var(--bs-border-width)));
   --bs-modal-header-padding-x: 1.5rem;
   --bs-modal-header-padding-y: 1rem;
@@ -6863,7 +6863,7 @@ textarea.form-control-lg {
 @media (min-width: 576px) {
   .modal {
     --bs-modal-margin: 1.75rem;
-    --bs-modal-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+    --bs-modal-box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.3);
   }
   .modal-dialog {
     max-width: var(--bs-modal-width);
@@ -7643,7 +7643,7 @@ textarea.form-control-lg {
   --bs-offcanvas-bg: var(--bs-body-bg);
   --bs-offcanvas-border-width: var(--bs-border-width);
   --bs-offcanvas-border-color: transparent;
-  --bs-offcanvas-box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.5);
+  --bs-offcanvas-box-shadow: 0 0.125rem 0.375rem rgba(0, 0, 0, 0.3);
   --bs-offcanvas-transition: transform 0.3s ease-in-out;
   --bs-offcanvas-title-line-height: 1.45rem;
 }
