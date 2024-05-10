@@ -83,4 +83,12 @@
       stroke-width: .75;
     }
   }
+
+  &.avatar-rounded {
+    // stylelint-disable-next-line property-disallowed-list
+    border-radius: 50%;
+    svg {
+      padding: .5rem;
+    }
+  }
 }
