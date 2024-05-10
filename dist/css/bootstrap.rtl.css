@@ -7580,6 +7580,12 @@ textarea.form-control-lg {
 .avatar.avatar-xl svg {
   stroke-width: 0.75;
 }
+.avatar.avatar-rounded {
+  border-radius: 50%;
+}
+.avatar.avatar-rounded svg {
+  padding: 0.5rem;
+}
 
 @media (min-width: 768px) {
   .profile-header .profile-header-logo {
