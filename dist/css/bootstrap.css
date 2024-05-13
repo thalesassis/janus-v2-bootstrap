@@ -7568,6 +7568,9 @@ textarea.form-control-lg {
   padding: 0.25rem;
   vertical-align: top;
 }
+.avatar.avatar-icon.avatar-sm svg {
+  padding: 0;
+}
 .avatar.avatar-icon.avatar-lg svg {
   padding: 0.5rem;
 }
@@ -7583,6 +7586,9 @@ textarea.form-control-lg {
 .avatar.avatar-sm svg {
   stroke-width: 2;
 }
+.avatar.avatar-sm.avatar-rounded svg {
+  padding: 0.25rem;
+}
 .avatar.avatar-md {
   width: 40px;
   height: 40px;
@@ -7590,6 +7596,9 @@ textarea.form-control-lg {
 }
 .avatar.avatar-md svg {
   stroke-width: 1.25;
+}
+.avatar.avatar-md.avatar-rounded svg {
+  padding: 0.5rem;
 }
 .avatar.avatar-lg {
   width: 64px;
@@ -7609,9 +7618,6 @@ textarea.form-control-lg {
 }
 .avatar.avatar-rounded {
   border-radius: 50%;
-}
-.avatar.avatar-rounded svg {
-  padding: 0.5rem;
 }
 
 @media (min-width: 768px) {
