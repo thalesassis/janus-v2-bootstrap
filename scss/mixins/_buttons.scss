@@ -44,6 +44,7 @@
   $active-color: color-contrast($active-background)
 ) {
   --#{$prefix}btn-color: #{$color};
+  --#{$prefix}btn-bg: #fff;
   --#{$prefix}btn-border-color: #{$color};
   --#{$prefix}btn-hover-color: #{$color-hover};
   --#{$prefix}btn-hover-bg: #{$active-background};
