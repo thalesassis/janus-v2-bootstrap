@@ -3801,6 +3801,7 @@ textarea.form-control-lg {
 
 .btn-outline-primary {
   --bs-btn-color: rgb(14, 98, 185);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(14, 98, 185);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(14, 98, 185);
@@ -3818,6 +3819,7 @@ textarea.form-control-lg {
 
 .btn-outline-secondary {
   --bs-btn-color: rgb(69, 69, 69);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(69, 69, 69);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(69, 69, 69);
@@ -3835,6 +3837,7 @@ textarea.form-control-lg {
 
 .btn-outline-success {
   --bs-btn-color: rgb(41, 120, 72);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(41, 120, 72);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(41, 120, 72);
@@ -3852,6 +3855,7 @@ textarea.form-control-lg {
 
 .btn-outline-info {
   --bs-btn-color: rgb(11, 91, 161);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(11, 91, 161);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(11, 91, 161);
@@ -3869,6 +3873,7 @@ textarea.form-control-lg {
 
 .btn-outline-warning {
   --bs-btn-color: rgb(168, 85, 2);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(168, 85, 2);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(168, 85, 2);
@@ -3886,6 +3891,7 @@ textarea.form-control-lg {
 
 .btn-outline-danger {
   --bs-btn-color: rgb(191, 62, 36);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(191, 62, 36);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(191, 62, 36);
@@ -3903,6 +3909,7 @@ textarea.form-control-lg {
 
 .btn-outline-light {
   --bs-btn-color: rgb(236, 236, 236);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(236, 236, 236);
   --bs-btn-hover-color: rgb(0, 0, 0);
   --bs-btn-hover-bg: rgb(236, 236, 236);
@@ -3920,6 +3927,7 @@ textarea.form-control-lg {
 
 .btn-outline-dark {
   --bs-btn-color: rgb(69, 69, 69);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(69, 69, 69);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(69, 69, 69);
@@ -3937,6 +3945,7 @@ textarea.form-control-lg {
 
 .btn-outline-gray-100 {
   --bs-btn-color: rgb(246, 246, 246);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(246, 246, 246);
   --bs-btn-hover-color: rgb(0, 0, 0);
   --bs-btn-hover-bg: rgb(246, 246, 246);
@@ -3954,6 +3963,7 @@ textarea.form-control-lg {
 
 .btn-outline-gray-200 {
   --bs-btn-color: rgb(236, 236, 236);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(236, 236, 236);
   --bs-btn-hover-color: rgb(0, 0, 0);
   --bs-btn-hover-bg: rgb(236, 236, 236);
@@ -3971,6 +3981,7 @@ textarea.form-control-lg {
 
 .btn-outline-gray-300 {
   --bs-btn-color: rgb(204, 204, 204);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(204, 204, 204);
   --bs-btn-hover-color: rgb(0, 0, 0);
   --bs-btn-hover-bg: rgb(204, 204, 204);
@@ -3988,6 +3999,7 @@ textarea.form-control-lg {
 
 .btn-outline-gray-400 {
   --bs-btn-color: rgb(170, 170, 170);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(170, 170, 170);
   --bs-btn-hover-color: rgb(0, 0, 0);
   --bs-btn-hover-bg: rgb(170, 170, 170);
@@ -4005,6 +4017,7 @@ textarea.form-control-lg {
 
 .btn-outline-gray-500 {
   --bs-btn-color: rgb(148, 148, 148);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(148, 148, 148);
   --bs-btn-hover-color: rgb(0, 0, 0);
   --bs-btn-hover-bg: rgb(148, 148, 148);
@@ -4022,6 +4035,7 @@ textarea.form-control-lg {
 
 .btn-outline-gray-600 {
   --bs-btn-color: rgb(108, 108, 108);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(108, 108, 108);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(108, 108, 108);
@@ -4039,6 +4053,7 @@ textarea.form-control-lg {
 
 .btn-outline-gray-700 {
   --bs-btn-color: rgb(85, 85, 85);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(85, 85, 85);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(85, 85, 85);
@@ -4056,6 +4071,7 @@ textarea.form-control-lg {
 
 .btn-outline-gray-800 {
   --bs-btn-color: rgb(69, 69, 69);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(69, 69, 69);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(69, 69, 69);
@@ -4073,6 +4089,7 @@ textarea.form-control-lg {
 
 .btn-outline-gray-900 {
   --bs-btn-color: rgb(51, 51, 51);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(51, 51, 51);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(51, 51, 51);
@@ -4090,6 +4107,7 @@ textarea.form-control-lg {
 
 .btn-outline-primary-100 {
   --bs-btn-color: #cfe0f1;
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: #cfe0f1;
   --bs-btn-hover-color: rgb(0, 0, 0);
   --bs-btn-hover-bg: #cfe0f1;
@@ -4107,6 +4125,7 @@ textarea.form-control-lg {
 
 .btn-outline-primary-200 {
   --bs-btn-color: #9fc0e3;
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: #9fc0e3;
   --bs-btn-hover-color: rgb(0, 0, 0);
   --bs-btn-hover-bg: #9fc0e3;
@@ -4124,6 +4143,7 @@ textarea.form-control-lg {
 
 .btn-outline-primary-300 {
   --bs-btn-color: #6ea1d5;
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: #6ea1d5;
   --bs-btn-hover-color: rgb(0, 0, 0);
   --bs-btn-hover-bg: #6ea1d5;
@@ -4141,6 +4161,7 @@ textarea.form-control-lg {
 
 .btn-outline-primary-400 {
   --bs-btn-color: #3e81c7;
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: #3e81c7;
   --bs-btn-hover-color: rgb(0, 0, 0);
   --bs-btn-hover-bg: #3e81c7;
@@ -18655,6 +18676,7 @@ textarea.form-control-lg {
   transform: translateZ(0);
   min-width: 90px;
   --bs-btn-color: rgb(14, 98, 185);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(14, 98, 185);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(14, 98, 185);
@@ -19026,6 +19048,7 @@ textarea.form-control-lg {
   transform: translateZ(0);
   min-width: 90px;
   --bs-btn-color: rgb(69, 69, 69);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(69, 69, 69);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(69, 69, 69);
@@ -19185,6 +19208,7 @@ body.fw .ui-dialog .ui-dialog-buttonpane button {
   transform: translateZ(0);
   min-width: 90px;
   --bs-btn-color: rgb(69, 69, 69);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(69, 69, 69);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(69, 69, 69);
@@ -19223,6 +19247,7 @@ body.fw .ui-dialog .ui-dialog-buttonpane button svg {
 
 #fg_msg .msg_btn {
   --bs-btn-color: rgb(69, 69, 69);
+  --bs-btn-bg: #fff;
   --bs-btn-border-color: rgb(69, 69, 69);
   --bs-btn-hover-color: rgb(255, 255, 255);
   --bs-btn-hover-bg: rgb(69, 69, 69);
