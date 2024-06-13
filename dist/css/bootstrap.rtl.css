@@ -3358,7 +3358,7 @@ textarea.form-control-lg {
 }
 
 .btn {
-  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.3125rem;
   --bs-btn-font-family: ;
   --bs-btn-font-size: 1rem;
@@ -4734,8 +4734,8 @@ textarea.form-control-lg {
 }
 
 .dropdown-toggle-split {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+  padding-left: 0.5625rem;
+  padding-right: 0.5625rem;
 }
 .dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after, .dropend .dropdown-toggle-split::after {
   margin-right: 0;
@@ -19028,7 +19028,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(69, 69, 69);
   --bs-gradient: none;
   --bs-btn-padding-y: 0.3125rem;
-  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-x: 0.75rem;
   --bs-btn-font-size: 1rem;
   --bs-btn-border-radius: 0.188rem;
   min-width: 70px;
