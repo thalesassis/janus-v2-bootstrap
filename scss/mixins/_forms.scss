@@ -28,6 +28,7 @@
     display: none;
     width: 100%;
     margin-top: $form-feedback-margin-top;
+    margin-bottom: map-get($spacers, 1);
     @include font-size($form-feedback-font-size);
     font-style: $form-feedback-font-style;
     color: $color;
@@ -52,6 +53,10 @@
     .#{$state}-feedback,
     .#{$state}-tooltip {
       display: block;
+    }
+    .form-label,
+    legend {
+      color: $color;
     }
   }
 
