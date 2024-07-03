@@ -49,8 +49,8 @@
   }
 
   @include form-validation-state-selector($state) {
-    ~ .#{$state}-feedback,
-    ~ .#{$state}-tooltip {
+    .#{$state}-feedback,
+    .#{$state}-tooltip {
       display: block;
     }
   }

@@ -3239,10 +3239,10 @@ textarea.form-control-lg {
   border-radius: var(--bs-border-radius);
 }
 
-.was-validated :valid ~ .valid-feedback,
-.was-validated :valid ~ .valid-tooltip,
-.is-valid ~ .valid-feedback,
-.is-valid ~ .valid-tooltip {
+.was-validated :valid .valid-feedback,
+.was-validated :valid .valid-tooltip,
+.is-valid .valid-feedback,
+.is-valid .valid-tooltip {
   display: block;
 }
 
@@ -3309,10 +3309,10 @@ textarea.form-control-lg {
   border-radius: var(--bs-border-radius);
 }
 
-.was-validated :invalid ~ .invalid-feedback,
-.was-validated :invalid ~ .invalid-tooltip,
-.is-invalid ~ .invalid-feedback,
-.is-invalid ~ .invalid-tooltip {
+.was-validated :invalid .invalid-feedback,
+.was-validated :invalid .invalid-tooltip,
+.is-invalid .invalid-feedback,
+.is-invalid .invalid-tooltip {
   display: block;
 }
 
