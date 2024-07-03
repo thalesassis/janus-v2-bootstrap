@@ -3221,6 +3221,7 @@ textarea.form-control-lg {
   display: none;
   width: 100%;
   margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
   font-size: 0.875em;
   color: var(--bs-form-valid-color);
 }
@@ -3244,6 +3245,12 @@ textarea.form-control-lg {
 .is-valid .valid-feedback,
 .is-valid .valid-tooltip {
   display: block;
+}
+.was-validated :valid .form-label,
+.was-validated :valid legend,
+.is-valid .form-label,
+.is-valid legend {
+  color: var(--bs-form-valid-color);
 }
 
 .was-validated .form-control:valid, .form-control.is-valid {
@@ -3291,6 +3298,7 @@ textarea.form-control-lg {
   display: none;
   width: 100%;
   margin-top: -0.25rem;
+  margin-bottom: 0.25rem;
   font-size: 0.875em;
   color: var(--bs-form-invalid-color);
 }
@@ -3314,6 +3322,12 @@ textarea.form-control-lg {
 .is-invalid .invalid-feedback,
 .is-invalid .invalid-tooltip {
   display: block;
+}
+.was-validated :invalid .form-label,
+.was-validated :invalid legend,
+.is-invalid .form-label,
+.is-invalid legend {
+  color: var(--bs-form-invalid-color);
 }
 
 .was-validated .form-control:invalid, .form-control.is-invalid {
@@ -3358,7 +3372,7 @@ textarea.form-control-lg {
 }
 
 .btn {
-  --bs-btn-padding-x: 0.75rem;
+  --bs-btn-padding-x: 1rem;
   --bs-btn-padding-y: 0.3125rem;
   --bs-btn-font-family: ;
   --bs-btn-font-size: 1rem;
@@ -4734,8 +4748,8 @@ textarea.form-control-lg {
 }
 
 .dropdown-toggle-split {
-  padding-left: 0.5625rem;
-  padding-right: 0.5625rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 .dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after, .dropend .dropdown-toggle-split::after {
   margin-right: 0;
@@ -19028,7 +19042,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(69, 69, 69);
   --bs-gradient: none;
   --bs-btn-padding-y: 0.3125rem;
-  --bs-btn-padding-x: 0.75rem;
+  --bs-btn-padding-x: 1rem;
   --bs-btn-font-size: 1rem;
   --bs-btn-border-radius: 0.188rem;
   min-width: 70px;
