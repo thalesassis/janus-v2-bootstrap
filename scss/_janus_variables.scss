@@ -111,8 +111,12 @@ $alert-color-scale:           -75% !default;
 
 $alert-border-width:          0 !default;
 
-$badge-font-size:             $janus-badge-font-size !default;
+$badge-font-size:             .875rem !default;
 $badge-font-weight:           $font-weight-normal !default;
+$badge-padding-x:             .5714em;
+$badge-padding-y:             .5714em;
+//$badge-color:
+$badge-border-radius:         .25rem;
 
 $btn-border-radius:           $janus-border-radius-lg !default;
 $btn-border-radius-lg:        $janus-border-radius-lg !default;
@@ -167,6 +171,7 @@ $input-btn-padding-x-lg:      $janus-input-btn-padding-x-lg !default;
 $input-box-shadow:            0 0 0 0 $janus-color-primary !default;
 $input-focus-box-shadow:      0 0 0 1px #fff, 0 0 0 3px $janus-color-primary !default;
 $input-btn-focus-box-shadow:  0 0 0 1px #fff, 0 0 0 3px $janus-color-primary !default;
+$btn-focus-box-shadow:        $input-btn-focus-box-shadow !default;
 
 $form-select-indicator-color: $gray-600 !default;
 
