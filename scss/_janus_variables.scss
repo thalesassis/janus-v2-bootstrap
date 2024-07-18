@@ -175,8 +175,8 @@ $btn-focus-box-shadow:        $input-btn-focus-box-shadow !default;
 
 $form-select-indicator-color: $gray-600 !default;
 
-$form-select-box-shadow:      none !default;
-$form-select-focus-box-shadow: 0 0 0 3px $janus-color-primary !default;
+$form-select-box-shadow:      $input-box-shadow !default;
+$form-select-focus-box-shadow: $input-focus-box-shadow !default;
 
 $input-padding-x:             $janus-input-text-padding-x !default;
 $input-padding-y:             $janus-input-text-padding-y !default;
