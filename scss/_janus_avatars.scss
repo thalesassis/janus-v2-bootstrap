@@ -1,9 +1,16 @@
 .avatar {
+  --#{$prefix}btn-focus-shadow-rgb: #{$btn-link-focus-shadow-rgb};
+  --#{$prefix}btn-focus-box-shadow: 0 0 0 1px #{$white}, 0 0 0 #{$btn-focus-width} rgba(var(--#{$prefix}btn-focus-shadow-rgb), #{$btn-focus-box-shadow-opacity});
   min-width: 24px;
   height: 24px;
   padding: 0;
   background-color: var(--#{$prefix}gray-600);
   border: 0;
+
+  &:focus-visible {
+    outline: 0;
+    box-shadow: var(--#{$prefix}btn-focus-box-shadow);
+  }
 
   &.avatar-text {
     @include font-size($janus-avatar-font-size);
