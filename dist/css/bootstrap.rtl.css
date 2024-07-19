@@ -2656,21 +2656,21 @@ progress {
 
 .form-control-sm {
   min-height: calc(1.5em + 0.314rem + calc(1px * 2));
-  padding: 0.157rem 1rem;
+  padding: 0.157rem 0.5rem;
   font-size: 0.875rem;
   border-radius: var(--bs-border-radius-sm);
 }
 .form-control-sm::-webkit-file-upload-button {
-  padding: 0.157rem 1rem;
-  margin: -0.157rem -1rem;
-  -webkit-margin-end: 1rem;
-  margin-inline-end: 1rem;
+  padding: 0.157rem 0.5rem;
+  margin: -0.157rem -0.5rem;
+  -webkit-margin-end: 0.5rem;
+  margin-inline-end: 0.5rem;
 }
 .form-control-sm::file-selector-button {
-  padding: 0.157rem 1rem;
-  margin: -0.157rem -1rem;
-  -webkit-margin-end: 1rem;
-  margin-inline-end: 1rem;
+  padding: 0.157rem 0.5rem;
+  margin: -0.157rem -0.5rem;
+  -webkit-margin-end: 0.5rem;
+  margin-inline-end: 0.5rem;
 }
 
 .form-control-lg {
@@ -2772,7 +2772,7 @@ textarea.form-control-lg {
 .form-select-sm {
   padding-top: 0.157rem;
   padding-bottom: 0.157rem;
-  padding-right: 1rem;
+  padding-right: 0.5rem;
   font-size: 0.875rem;
   border-radius: var(--bs-border-radius-sm);
 }
@@ -3182,7 +3182,7 @@ textarea.form-control-lg {
 .input-group-sm > .form-select,
 .input-group-sm > .input-group-text,
 .input-group-sm > .btn {
-  padding: 0.157rem 1rem;
+  padding: 0.157rem 0.5rem;
   font-size: 0.875rem;
   border-radius: var(--bs-border-radius-sm);
 }
@@ -3372,7 +3372,7 @@ textarea.form-control-lg {
 }
 
 .btn {
-  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.3125rem;
   --bs-btn-font-family: ;
   --bs-btn-font-size: 1rem;
@@ -3388,7 +3388,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-opacity: 0.65;
   --bs-btn-focus-shadow-rgb: 14, 98, 185;
   --bs-btn-focus-box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 3px rgba(var(--bs-btn-focus-shadow-rgb), 1);
-  display: inline-block;
+  display: inline-flex;
   padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
   font-family: var(--bs-btn-font-family);
   font-size: var(--bs-btn-font-size);
@@ -3407,6 +3407,8 @@ textarea.form-control-lg {
   background-color: var(--bs-btn-bg);
   box-shadow: var(--bs-btn-box-shadow);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  align-items: center;
+  min-height: calc(var(--bs-btn-font-size) * var(--bs-btn-line-height) + var(--bs-btn-padding-y) * 2 + var(--bs-btn-border-width) * 2);
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -4223,7 +4225,7 @@ textarea.form-control-lg {
 
 .btn-sm, .btn-group-sm > .btn {
   --bs-btn-padding-y: 0.157rem;
-  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-x: 0.5rem;
   --bs-btn-font-size: 0.875rem;
   --bs-btn-border-radius: 0.125rem;
 }
@@ -4748,8 +4750,8 @@ textarea.form-control-lg {
 }
 
 .dropdown-toggle-split {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+  padding-left: 0.5625rem;
+  padding-right: 0.5625rem;
 }
 .dropdown-toggle-split::after, .dropup .dropdown-toggle-split::after, .dropend .dropdown-toggle-split::after {
   margin-right: 0;
@@ -4759,8 +4761,8 @@ textarea.form-control-lg {
 }
 
 .btn-sm + .dropdown-toggle-split, .btn-group-sm > .btn + .dropdown-toggle-split {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
 }
 
 .btn-lg + .dropdown-toggle-split, .btn-group-lg > .btn + .dropdown-toggle-split {
@@ -18654,7 +18656,7 @@ textarea.form-control-lg {
   background-color: transparent;
   border: 1px solid transparent;
   --bs-btn-padding-y: 0.157rem;
-  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-x: 0.5rem;
   --bs-btn-font-size: 0.875rem;
   --bs-btn-border-radius: 0.125rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -18985,11 +18987,11 @@ textarea.form-control-lg {
 #fg_content .fg_button_bar input[type=button],
 #fg_content .fg_button_bar input[type=text],
 #fg_content .fg_button_bar .chosen-single {
-  padding: 0.157rem 1rem;
+  padding: 0.157rem 0.5rem;
   font-size: 0.875rem;
   border-radius: var(--bs-border-radius-sm);
   --bs-btn-padding-y: 0.157rem;
-  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-x: 0.5rem;
   --bs-btn-font-size: 0.875rem;
   --bs-btn-border-radius: 0.125rem;
 }
@@ -19026,7 +19028,7 @@ textarea.form-control-lg {
   background-color: transparent;
   border: 1px solid transparent;
   --bs-btn-padding-y: 0.157rem;
-  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-x: 0.5rem;
   --bs-btn-font-size: 0.875rem;
   --bs-btn-border-radius: 0.125rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -19048,7 +19050,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(69, 69, 69);
   --bs-gradient: none;
   --bs-btn-padding-y: 0.3125rem;
-  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-x: 0.75rem;
   --bs-btn-font-size: 1rem;
   --bs-btn-border-radius: 0.188rem;
   min-width: 70px;
@@ -19123,23 +19125,23 @@ fieldset:disabled #fg_container input[type=button] {
 
 #fg_inspector .chosen-search input.chosen-search-input {
   min-height: calc(1.5em + 0.314rem + calc(1px * 2));
-  padding: 0.157rem 1rem;
+  padding: 0.157rem 0.5rem;
   font-size: 0.875rem;
   border-radius: var(--bs-border-radius-sm);
 }
 #fg_inspector .chosen-search input.chosen-search-input::-webkit-file-upload-button {
-  padding: 0.157rem 1rem;
-  margin: -0.157rem -1rem -0.157rem 1rem;
+  padding: 0.157rem 0.5rem;
+  margin: -0.157rem -0.5rem -0.157rem 0.5rem;
   border-left-width: 1px;
 }
 #fg_inspector .chosen-search input.chosen-search-input::file-selector-button {
-  padding: 0.157rem 1rem;
-  margin: -0.157rem -1rem -0.157rem 1rem;
+  padding: 0.157rem 0.5rem;
+  margin: -0.157rem -0.5rem -0.157rem 0.5rem;
   border-left-width: 1px;
 }
 #fg_inspector .chosen-search input.chosen-search-input::-webkit-file-upload-button {
-  padding: 0.157rem 1rem;
-  margin: -0.157rem -1rem -0.157rem 1rem;
+  padding: 0.157rem 0.5rem;
+  margin: -0.157rem -0.5rem -0.157rem 0.5rem;
   border-left-width: 1px;
 }
 
@@ -19186,7 +19188,7 @@ body.fw .ui-dialog .ui-dialog-buttonpane button {
   background-color: transparent;
   border: 1px solid transparent;
   --bs-btn-padding-y: 0.157rem;
-  --bs-btn-padding-x: 1rem;
+  --bs-btn-padding-x: 0.5rem;
   --bs-btn-font-size: 0.875rem;
   --bs-btn-border-radius: 0.125rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
