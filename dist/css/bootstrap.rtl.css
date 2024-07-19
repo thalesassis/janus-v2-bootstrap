@@ -2916,7 +2916,7 @@ textarea.form-control-lg {
 .btn-check[disabled] + .btn, .btn-check:disabled + .btn {
   pointer-events: none;
   filter: none;
-  opacity: 1;
+  opacity: 0.65;
 }
 
 [data-bs-theme=dark] .form-switch .form-check-input:not(:checked):not(:focus) {
@@ -3385,7 +3385,7 @@ textarea.form-control-lg {
   --bs-btn-border-radius: 0.188rem;
   --bs-btn-hover-border-color: transparent;
   --bs-btn-box-shadow: none;
-  --bs-btn-disabled-opacity: 1;
+  --bs-btn-disabled-opacity: 0.65;
   --bs-btn-focus-shadow-rgb: 14, 98, 185;
   --bs-btn-focus-box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 3px rgba(var(--bs-btn-focus-shadow-rgb), 1);
   display: inline-block;
@@ -18691,7 +18691,7 @@ textarea.form-control-lg {
 }
 #fg_wrapper #fg_unused_fields .chosen-single:disabled, #fg_wrapper #fg_unused_fields .chosen-single.disabled, fieldset:disabled #fg_wrapper #fg_unused_fields .chosen-single {
   pointer-events: none;
-  opacity: 1;
+  opacity: 0.65;
   box-shadow: none;
 }
 #fg_wrapper #fg_unused_fields .chosen-single svg {
@@ -19082,7 +19082,7 @@ fieldset:disabled #fg_container button[data-action],
 #fg_container input[type=button].disabled,
 fieldset:disabled #fg_container input[type=button] {
   pointer-events: none;
-  opacity: 1;
+  opacity: 0.65;
   box-shadow: none;
 }
 #fg_container button.btn svg,
@@ -19223,7 +19223,7 @@ body.fw .ui-dialog .ui-dialog-buttonpane button:hover {
 }
 body.fw .ui-dialog .ui-dialog-buttonpane button:disabled, body.fw .ui-dialog .ui-dialog-buttonpane button.disabled, fieldset:disabled body.fw .ui-dialog .ui-dialog-buttonpane button {
   pointer-events: none;
-  opacity: 1;
+  opacity: 0.65;
   box-shadow: none;
 }
 body.fw .ui-dialog .ui-dialog-buttonpane button svg {
