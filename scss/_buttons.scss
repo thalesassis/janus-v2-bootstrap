@@ -20,9 +20,10 @@
   --#{$prefix}btn-disabled-opacity: #{$btn-disabled-opacity};
   --#{$prefix}btn-focus-shadow-rgb: #{$btn-link-focus-shadow-rgb};
   --#{$prefix}btn-focus-box-shadow: 0 0 0 1px #{$white}, 0 0 0 #{$btn-focus-width} rgba(var(--#{$prefix}btn-focus-shadow-rgb), #{$btn-focus-box-shadow-opacity});
+
   // scss-docs-end btn-css-vars
 
-  display: inline-block;
+  display: inline-flex;
   padding: var(--#{$prefix}btn-padding-y) var(--#{$prefix}btn-padding-x);
   font-family: var(--#{$prefix}btn-font-family);
   @include font-size(var(--#{$prefix}btn-font-size));
@@ -40,6 +41,8 @@
   @include gradient-bg(var(--#{$prefix}btn-bg));
   @include box-shadow(var(--#{$prefix}btn-box-shadow));
   @include transition($btn-transition);
+  align-items: center;
+  min-height: calc((var(--#{$prefix}btn-font-size) * var(--#{$prefix}btn-line-height)) + (var(--#{$prefix}btn-padding-y) * 2) + (var(--#{$prefix}btn-border-width) * 2));
 
   &:hover {
     color: var(--#{$prefix}btn-hover-color);
