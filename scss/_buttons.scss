@@ -24,6 +24,8 @@
   // scss-docs-end btn-css-vars
 
   display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
   padding: var(--#{$prefix}btn-padding-y) var(--#{$prefix}btn-padding-x);
   font-family: var(--#{$prefix}btn-font-family);
   @include font-size(var(--#{$prefix}btn-font-size));
@@ -41,8 +43,6 @@
   @include gradient-bg(var(--#{$prefix}btn-bg));
   @include box-shadow(var(--#{$prefix}btn-box-shadow));
   @include transition($btn-transition);
-  align-items: center;
-  min-height: calc((var(--#{$prefix}btn-font-size) * var(--#{$prefix}btn-line-height)) + (var(--#{$prefix}btn-padding-y) * 2) + (var(--#{$prefix}btn-border-width) * 2));
 
   &:hover {
     color: var(--#{$prefix}btn-hover-color);
@@ -203,11 +203,13 @@
 
 .btn-lg {
   @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $btn-border-radius-lg);
+  min-height: 2.5rem;
   line-height: $janus-input-btn-lg-line-height;
 }
 
 .btn-sm {
   @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $btn-font-size-sm, $btn-border-radius-sm);
+  min-height: 1.75rem;
 }
 
 //
