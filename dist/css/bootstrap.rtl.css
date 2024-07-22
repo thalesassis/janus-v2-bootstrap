@@ -3389,6 +3389,8 @@ textarea.form-control-lg {
   --bs-btn-focus-shadow-rgb: 14, 98, 185;
   --bs-btn-focus-box-shadow: 0 0 0 1px rgb(255, 255, 255), 0 0 0 3px rgba(var(--bs-btn-focus-shadow-rgb), 1);
   display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
   padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
   font-family: var(--bs-btn-font-family);
   font-size: var(--bs-btn-font-size);
@@ -3407,8 +3409,6 @@ textarea.form-control-lg {
   background-color: var(--bs-btn-bg);
   box-shadow: var(--bs-btn-box-shadow);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  align-items: center;
-  min-height: calc(var(--bs-btn-font-size) * var(--bs-btn-line-height) + var(--bs-btn-padding-y) * 2 + var(--bs-btn-border-width) * 2);
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -4220,6 +4220,7 @@ textarea.form-control-lg {
   --bs-btn-padding-x: 1.75rem;
   --bs-btn-font-size: 1rem;
   --bs-btn-border-radius: 0.188rem;
+  min-height: 2.5rem;
   line-height: 1.375;
 }
 
@@ -4228,6 +4229,7 @@ textarea.form-control-lg {
   --bs-btn-padding-x: 0.5rem;
   --bs-btn-font-size: 0.875rem;
   --bs-btn-border-radius: 0.125rem;
+  min-height: 1.75rem;
 }
 
 /* stylelint-disable */
