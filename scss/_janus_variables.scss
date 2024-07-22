@@ -116,11 +116,11 @@ $badge-font-weight:           $font-weight-normal !default;
 $badge-padding-x:             .5714em;
 $badge-padding-y:             .5714em;
 //$badge-color:
-$badge-border-radius:         .25rem;
+$badge-border-radius:         $janus-border-radius;
 
-$btn-border-radius:           $janus-border-radius-lg !default;
-$btn-border-radius-lg:        $janus-border-radius-lg !default;
-$btn-border-radius-sm:        $janus-border-radius-sm !default;
+$btn-border-radius:           $janus-border-radius !default;
+$btn-border-radius-lg:        $janus-border-radius !default;
+$btn-border-radius-sm:        $janus-border-radius !default;
 
 $btn-box-shadow:              none !default;
 
@@ -156,8 +156,8 @@ $legend-font-size:            $h4-font-size !default;
 $legend-font-weight:          600 !default;
 
 $border-radius:               $janus-border-radius !default;
-$border-radius-sm:            $janus-border-radius-sm !default;
-$border-radius-lg:            $janus-border-radius-lg !default;
+$border-radius-sm:            $janus-border-radius !default;
+$border-radius-lg:            $janus-border-radius !default;
 
 /* border-radius-xl and xxl also available */
 
@@ -190,11 +190,11 @@ $btn-border-width:            $input-btn-border-width !default;
 $form-check-input-border:     1px solid rgba(148, 148, 148, 1) !default;
 $form-check-input-width:      1em !default;
 $form-check-margin-bottom:    $janus-dropdown-spacer !default;
-$form-check-input-border-radius: $janus-border-radius-sm !default;
+$form-check-input-border-radius: $janus-border-radius !default;
 
 $badge-padding-x:             $janus-badge-padding-x !default;
 $badge-padding-y:             $janus-badge-padding-y !default;
-$badge-border-radius:         $janus-border-radius-sm !default;
+$badge-border-radius:         $janus-border-radius !default;
 
 $alert-padding-x:             $janus-alert-padding-x !default;
 $alert-padding-y:             $janus-alert-padding-y !default;
@@ -211,7 +211,7 @@ $dropdown-item-padding-x:     $janus-dropdown-item-padding-x !default;
 
 $dropdown-header-color:       $janus-color-secondary !default;
 $dropdown-spacer:             $janus-dropdown-spacer !default;
-$dropdown-border-radius:      $janus-border-radius-lg !default;
+$dropdown-border-radius:      $janus-border-radius !default;
 $dropdown-box-shadow:         $box-shadow-sm !default;
 $dropdown-border-color:       $janus-color-secondary-background !default;
 
