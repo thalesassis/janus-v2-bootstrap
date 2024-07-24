@@ -15,6 +15,21 @@ $danger: $janus-color-danger !default;
 $light: $janus-color-gray-200 !default;
 $dark: $janus-color-gray-800 !default;
 
+$success-text-emphasis:   $success !default;
+$info-text-emphasis:      $info !default;
+$warning-text-emphasis:   $warning !default;
+$danger-text-emphasis:    $danger !default;
+
+$success-bg-subtle:       $janus-color-success-background !default;
+$info-bg-subtle:          $janus-color-info-background !default;
+$warning-bg-subtle:       $janus-color-warning-background !default;
+$danger-bg-subtle:        $janus-color-danger-background !default;
+
+$success-border-subtle:   $success-bg-subtle !default;
+$info-border-subtle:      $info-bg-subtle !default;
+$warning-border-subtle:   $warning-bg-subtle !default;
+$danger-border-subtle:    $danger-bg-subtle !default;
+
 // Map Janus design tokens to bootstrap variables
 $white: $janus-color-white !default;
 $gray-100: $janus-color-gray-100 !default;
@@ -105,17 +120,12 @@ $modal-content-box-shadow-xs: $box-shadow-lg;
 $modal-content-box-shadow-sm-up: $box-shadow-lg;
 $dropdown-box-shadow: $box-shadow-lg;
 
-$alert-bg-scale:              -87% !default;
-$alert-border-scale:          0% !default;
-$alert-color-scale:           -75% !default;
-
 $alert-border-width:          0 !default;
 
 $badge-font-size:             .875rem !default;
 $badge-font-weight:           $font-weight-normal !default;
 $badge-padding-x:             .5714em;
 $badge-padding-y:             .5714em;
-//$badge-color:
 $badge-border-radius:         $janus-border-radius;
 
 $btn-border-radius:           $janus-border-radius !default;
