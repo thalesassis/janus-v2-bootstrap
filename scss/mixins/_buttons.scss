@@ -43,9 +43,10 @@
   $active-border: $color,
   $active-color: color-contrast(mix(#fff, $color, 95%), $color)
 ) {
+  $btn-border-color: if($color == $secondary, mix($color, #fff, 45.5%), $color);
   --#{$prefix}btn-color: #{$color};
   --#{$prefix}btn-bg: #fff;
-  --#{$prefix}btn-border-color: #{$color};
+  --#{$prefix}btn-border-color: #{$btn-border-color};
   --#{$prefix}btn-hover-color: #{$color-hover};
   --#{$prefix}btn-hover-bg: #{$active-background};
   --#{$prefix}btn-hover-border-color: #{$active-border};
