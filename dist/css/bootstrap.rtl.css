@@ -3399,6 +3399,7 @@ textarea.form-control-lg {
   color: var(--bs-btn-color);
   text-align: center;
   text-decoration: none;
+  text-transform: capitalize;
   vertical-align: middle;
   cursor: pointer;
   -webkit-user-select: none;
