@@ -345,5 +345,7 @@ $list-group-border-color: $gray-200;
       stroke-width: 2;
     }
   }
-
+icon, button svg, a svg {
+    line-height: 1;
+}
 /* stylelint-enable */
