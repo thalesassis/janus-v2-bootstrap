@@ -1,0 +1,15 @@
+/* stylelint-disable */
+
+$janus_badge_styles: ("success", "info", "warning", "danger", "light", "primary", "secondary");
+
+@each $style in $janus_badge_styles {
+  .badge-#{$style}-subtle {
+    background-color: var(--#{$prefix}#{$style}-bg-subtle);
+    color: var(--#{$prefix}#{$style});
+  }
+  .badge-#{$style} {
+    @extend .text-bg-#{$style};
+  }
+}
+
+/* stylelint-enable */
