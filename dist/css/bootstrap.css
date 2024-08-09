@@ -43,6 +43,10 @@ svg {
   stroke-width: 2;
 }
 
+icon, button svg, a svg {
+  line-height: 1;
+}
+
 /* stylelint-enable */
 /* stylelint-disable */
 /* stylelint-enable */
@@ -4429,7 +4433,7 @@ textarea.form-control-lg {
   --bs-dropdown-link-active-bg: rgb(14, 98, 185);
   --bs-dropdown-link-disabled-color: var(--bs-tertiary-color);
   --bs-dropdown-item-padding-x: 1.25rem;
-  --bs-dropdown-item-padding-y: 0.375rem;
+  --bs-dropdown-item-padding-y: 0.5rem;
   --bs-dropdown-header-color: rgb(69, 69, 69);
   --bs-dropdown-header-padding-x: 1.25rem;
   --bs-dropdown-header-padding-y: 0.5rem;
@@ -8634,43 +8638,80 @@ textarea.form-control-lg {
   margin-top: 1rem;
 }
 
+/* stylelint-disable */
+.badge-success-subtle {
+  background-color: var(--bs-success-bg-subtle);
+  color: var(--bs-success);
+}
+
+.badge-info-subtle {
+  background-color: var(--bs-info-bg-subtle);
+  color: var(--bs-info);
+}
+
+.badge-warning-subtle {
+  background-color: var(--bs-warning-bg-subtle);
+  color: var(--bs-warning);
+}
+
+.badge-danger-subtle {
+  background-color: var(--bs-danger-bg-subtle);
+  color: var(--bs-danger);
+}
+
+.badge-light-subtle {
+  background-color: var(--bs-light-bg-subtle);
+  color: var(--bs-light);
+}
+
+.badge-primary-subtle {
+  background-color: var(--bs-primary-bg-subtle);
+  color: var(--bs-primary);
+}
+
+.badge-secondary-subtle {
+  background-color: var(--bs-secondary-bg-subtle);
+  color: var(--bs-secondary);
+}
+
+/* stylelint-enable */
 .clearfix::after {
   display: block;
   clear: both;
   content: "";
 }
 
-.text-bg-primary {
+.text-bg-primary, .badge-primary {
   color: rgb(255, 255, 255) !important;
   background-color: RGBA(var(--bs-primary-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-secondary {
+.text-bg-secondary, .badge-secondary {
   color: rgb(255, 255, 255) !important;
   background-color: RGBA(var(--bs-secondary-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-success {
+.text-bg-success, .badge-success {
   color: rgb(255, 255, 255) !important;
   background-color: RGBA(var(--bs-success-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-info {
+.text-bg-info, .badge-info {
   color: rgb(255, 255, 255) !important;
   background-color: RGBA(var(--bs-info-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-warning {
+.text-bg-warning, .badge-warning {
   color: rgb(255, 255, 255) !important;
   background-color: RGBA(var(--bs-warning-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-danger {
+.text-bg-danger, .badge-danger {
   color: rgb(255, 255, 255) !important;
   background-color: RGBA(var(--bs-danger-rgb), var(--bs-bg-opacity, 1)) !important;
 }
 
-.text-bg-light {
+.text-bg-light, .badge-light {
   color: rgb(0, 0, 0) !important;
   background-color: RGBA(var(--bs-light-rgb), var(--bs-bg-opacity, 1)) !important;
 }
