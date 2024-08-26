@@ -3461,7 +3461,7 @@ textarea.form-control-lg {
   box-shadow: none;
 }
 
-.btn-primary {
+.btn-primary, .alert-primary .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
   --bs-btn-bg: rgb(14, 98, 185);
   --bs-btn-border-color: rgb(14, 98, 185);
@@ -3478,7 +3478,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(14, 98, 185);
 }
 
-.btn-secondary {
+.btn-secondary, .alert-secondary .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
   --bs-btn-bg: rgb(69, 69, 69);
   --bs-btn-border-color: rgb(69, 69, 69);
@@ -3495,7 +3495,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(69, 69, 69);
 }
 
-.btn-success {
+.btn-success, .alert-success .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
   --bs-btn-bg: rgb(41, 120, 72);
   --bs-btn-border-color: rgb(41, 120, 72);
@@ -3512,7 +3512,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(41, 120, 72);
 }
 
-.btn-info {
+.btn-info, .alert-info .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
   --bs-btn-bg: rgb(8, 68, 121);
   --bs-btn-border-color: rgb(8, 68, 121);
@@ -3529,7 +3529,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(8, 68, 121);
 }
 
-.btn-warning {
+.btn-warning, .alert-warning .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
   --bs-btn-bg: rgb(168, 85, 2);
   --bs-btn-border-color: rgb(168, 85, 2);
@@ -3546,7 +3546,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(168, 85, 2);
 }
 
-.btn-danger {
+.btn-danger, .alert-danger .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
   --bs-btn-bg: rgb(159, 0, 0);
   --bs-btn-border-color: rgb(159, 0, 0);
@@ -3563,7 +3563,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(159, 0, 0);
 }
 
-.btn-light {
+.btn-light, .alert-light .btn-primary {
   --bs-btn-color: rgb(0, 0, 0);
   --bs-btn-bg: rgb(236, 236, 236);
   --bs-btn-border-color: rgb(236, 236, 236);
@@ -3580,7 +3580,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(236, 236, 236);
 }
 
-.btn-dark {
+.btn-dark, .alert-dark .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
   --bs-btn-bg: rgb(69, 69, 69);
   --bs-btn-border-color: rgb(69, 69, 69);
@@ -3597,7 +3597,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(69, 69, 69);
 }
 
-.btn-gray-100 {
+.btn-gray-100, .alert-gray-100 .btn-primary {
   --bs-btn-color: rgb(0, 0, 0);
   --bs-btn-bg: rgb(246, 246, 246);
   --bs-btn-border-color: rgb(246, 246, 246);
@@ -3614,7 +3614,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(246, 246, 246);
 }
 
-.btn-gray-200 {
+.btn-gray-200, .alert-gray-200 .btn-primary {
   --bs-btn-color: rgb(0, 0, 0);
   --bs-btn-bg: rgb(236, 236, 236);
   --bs-btn-border-color: rgb(236, 236, 236);
@@ -3631,7 +3631,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(236, 236, 236);
 }
 
-.btn-gray-300 {
+.btn-gray-300, .alert-gray-300 .btn-primary {
   --bs-btn-color: rgb(0, 0, 0);
   --bs-btn-bg: rgb(204, 204, 204);
   --bs-btn-border-color: rgb(204, 204, 204);
@@ -3648,7 +3648,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(204, 204, 204);
 }
 
-.btn-gray-400 {
+.btn-gray-400, .alert-gray-400 .btn-primary {
   --bs-btn-color: rgb(0, 0, 0);
   --bs-btn-bg: rgb(170, 170, 170);
   --bs-btn-border-color: rgb(170, 170, 170);
@@ -3665,7 +3665,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(170, 170, 170);
 }
 
-.btn-gray-500 {
+.btn-gray-500, .alert-gray-500 .btn-primary {
   --bs-btn-color: rgb(0, 0, 0);
   --bs-btn-bg: rgb(148, 148, 148);
   --bs-btn-border-color: rgb(148, 148, 148);
@@ -3682,7 +3682,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(148, 148, 148);
 }
 
-.btn-gray-600 {
+.btn-gray-600, .alert-gray-600 .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
   --bs-btn-bg: rgb(108, 108, 108);
   --bs-btn-border-color: rgb(108, 108, 108);
@@ -3699,7 +3699,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(108, 108, 108);
 }
 
-.btn-gray-700 {
+.btn-gray-700, .alert-gray-700 .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
   --bs-btn-bg: rgb(85, 85, 85);
   --bs-btn-border-color: rgb(85, 85, 85);
@@ -3716,7 +3716,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(85, 85, 85);
 }
 
-.btn-gray-800 {
+.btn-gray-800, .alert-gray-800 .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
   --bs-btn-bg: rgb(69, 69, 69);
   --bs-btn-border-color: rgb(69, 69, 69);
@@ -3733,7 +3733,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(69, 69, 69);
 }
 
-.btn-gray-900 {
+.btn-gray-900, .alert-gray-900 .btn-primary {
   --bs-btn-color: rgb(255, 255, 255);
   --bs-btn-bg: rgb(51, 51, 51);
   --bs-btn-border-color: rgb(51, 51, 51);
@@ -3750,7 +3750,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: rgb(51, 51, 51);
 }
 
-.btn-primary-100 {
+.btn-primary-100, .alert-primary-100 .btn-primary {
   --bs-btn-color: rgb(0, 0, 0);
   --bs-btn-bg: #cfe0f1;
   --bs-btn-border-color: #cfe0f1;
@@ -3767,7 +3767,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #cfe0f1;
 }
 
-.btn-primary-200 {
+.btn-primary-200, .alert-primary-200 .btn-primary {
   --bs-btn-color: rgb(0, 0, 0);
   --bs-btn-bg: #9fc0e3;
   --bs-btn-border-color: #9fc0e3;
@@ -3784,7 +3784,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #9fc0e3;
 }
 
-.btn-primary-300 {
+.btn-primary-300, .alert-primary-300 .btn-primary {
   --bs-btn-color: rgb(0, 0, 0);
   --bs-btn-bg: #6ea1d5;
   --bs-btn-border-color: #6ea1d5;
@@ -3801,7 +3801,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #6ea1d5;
 }
 
-.btn-primary-400 {
+.btn-primary-400, .alert-primary-400 .btn-primary {
   --bs-btn-color: rgb(0, 0, 0);
   --bs-btn-bg: #3e81c7;
   --bs-btn-border-color: #3e81c7;
@@ -5923,147 +5923,126 @@ textarea.form-control-lg {
   --bs-alert-border-color: var(--bs-primary-border-subtle);
   --bs-alert-link-color: var(--bs-primary-text-emphasis);
 }
-
 .alert-secondary {
   --bs-alert-color: var(--bs-secondary-text-emphasis);
   --bs-alert-bg: var(--bs-secondary-bg-subtle);
   --bs-alert-border-color: var(--bs-secondary-border-subtle);
   --bs-alert-link-color: var(--bs-secondary-text-emphasis);
 }
-
 .alert-success {
   --bs-alert-color: var(--bs-success-text-emphasis);
   --bs-alert-bg: var(--bs-success-bg-subtle);
   --bs-alert-border-color: var(--bs-success-border-subtle);
   --bs-alert-link-color: var(--bs-success-text-emphasis);
 }
-
 .alert-info {
   --bs-alert-color: var(--bs-info-text-emphasis);
   --bs-alert-bg: var(--bs-info-bg-subtle);
   --bs-alert-border-color: var(--bs-info-border-subtle);
   --bs-alert-link-color: var(--bs-info-text-emphasis);
 }
-
 .alert-warning {
   --bs-alert-color: var(--bs-warning-text-emphasis);
   --bs-alert-bg: var(--bs-warning-bg-subtle);
   --bs-alert-border-color: var(--bs-warning-border-subtle);
   --bs-alert-link-color: var(--bs-warning-text-emphasis);
 }
-
 .alert-danger {
   --bs-alert-color: var(--bs-danger-text-emphasis);
   --bs-alert-bg: var(--bs-danger-bg-subtle);
   --bs-alert-border-color: var(--bs-danger-border-subtle);
   --bs-alert-link-color: var(--bs-danger-text-emphasis);
 }
-
 .alert-light {
   --bs-alert-color: var(--bs-light-text-emphasis);
   --bs-alert-bg: var(--bs-light-bg-subtle);
   --bs-alert-border-color: var(--bs-light-border-subtle);
   --bs-alert-link-color: var(--bs-light-text-emphasis);
 }
-
 .alert-dark {
   --bs-alert-color: var(--bs-dark-text-emphasis);
   --bs-alert-bg: var(--bs-dark-bg-subtle);
   --bs-alert-border-color: var(--bs-dark-border-subtle);
   --bs-alert-link-color: var(--bs-dark-text-emphasis);
 }
-
 .alert-gray-100 {
   --bs-alert-color: var(--bs-gray-100-text-emphasis);
   --bs-alert-bg: var(--bs-gray-100-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-100-border-subtle);
   --bs-alert-link-color: var(--bs-gray-100-text-emphasis);
 }
-
 .alert-gray-200 {
   --bs-alert-color: var(--bs-gray-200-text-emphasis);
   --bs-alert-bg: var(--bs-gray-200-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-200-border-subtle);
   --bs-alert-link-color: var(--bs-gray-200-text-emphasis);
 }
-
 .alert-gray-300 {
   --bs-alert-color: var(--bs-gray-300-text-emphasis);
   --bs-alert-bg: var(--bs-gray-300-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-300-border-subtle);
   --bs-alert-link-color: var(--bs-gray-300-text-emphasis);
 }
-
 .alert-gray-400 {
   --bs-alert-color: var(--bs-gray-400-text-emphasis);
   --bs-alert-bg: var(--bs-gray-400-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-400-border-subtle);
   --bs-alert-link-color: var(--bs-gray-400-text-emphasis);
 }
-
 .alert-gray-500 {
   --bs-alert-color: var(--bs-gray-500-text-emphasis);
   --bs-alert-bg: var(--bs-gray-500-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-500-border-subtle);
   --bs-alert-link-color: var(--bs-gray-500-text-emphasis);
 }
-
 .alert-gray-600 {
   --bs-alert-color: var(--bs-gray-600-text-emphasis);
   --bs-alert-bg: var(--bs-gray-600-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-600-border-subtle);
   --bs-alert-link-color: var(--bs-gray-600-text-emphasis);
 }
-
 .alert-gray-700 {
   --bs-alert-color: var(--bs-gray-700-text-emphasis);
   --bs-alert-bg: var(--bs-gray-700-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-700-border-subtle);
   --bs-alert-link-color: var(--bs-gray-700-text-emphasis);
 }
-
 .alert-gray-800 {
   --bs-alert-color: var(--bs-gray-800-text-emphasis);
   --bs-alert-bg: var(--bs-gray-800-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-800-border-subtle);
   --bs-alert-link-color: var(--bs-gray-800-text-emphasis);
 }
-
 .alert-gray-900 {
   --bs-alert-color: var(--bs-gray-900-text-emphasis);
   --bs-alert-bg: var(--bs-gray-900-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-900-border-subtle);
   --bs-alert-link-color: var(--bs-gray-900-text-emphasis);
 }
-
 .alert-primary-100 {
   --bs-alert-color: var(--bs-primary-100-text-emphasis);
   --bs-alert-bg: var(--bs-primary-100-bg-subtle);
   --bs-alert-border-color: var(--bs-primary-100-border-subtle);
   --bs-alert-link-color: var(--bs-primary-100-text-emphasis);
 }
-
 .alert-primary-200 {
   --bs-alert-color: var(--bs-primary-200-text-emphasis);
   --bs-alert-bg: var(--bs-primary-200-bg-subtle);
   --bs-alert-border-color: var(--bs-primary-200-border-subtle);
   --bs-alert-link-color: var(--bs-primary-200-text-emphasis);
 }
-
 .alert-primary-300 {
   --bs-alert-color: var(--bs-primary-300-text-emphasis);
   --bs-alert-bg: var(--bs-primary-300-bg-subtle);
   --bs-alert-border-color: var(--bs-primary-300-border-subtle);
   --bs-alert-link-color: var(--bs-primary-300-text-emphasis);
 }
-
 .alert-primary-400 {
   --bs-alert-color: var(--bs-primary-400-text-emphasis);
   --bs-alert-bg: var(--bs-primary-400-bg-subtle);
   --bs-alert-border-color: var(--bs-primary-400-border-subtle);
   --bs-alert-link-color: var(--bs-primary-400-text-emphasis);
 }
-
 @keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
