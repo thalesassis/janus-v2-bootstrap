@@ -7,7 +7,7 @@
 
 // Custom color palette
 $primary: $janus-color-primary !default;
-$secondary: $janus-color-secondary !default;
+$secondary: $janus-color-gray-800 !default;
 $success: $janus-color-success !default;
 $info: $janus-color-info !default;
 $warning: $janus-color-warning !default;
@@ -158,7 +158,8 @@ $display-font-sizes: (
   4: 3.5rem,
   5: 3rem,
   6: 2.5rem,
-  7: .875rem
+  7: 1.5rem,
+  8: .875rem
 ) !default;
 
 $legend-margin-bottom:        .25rem !default;
@@ -183,7 +184,7 @@ $input-focus-box-shadow:      0 0 0 1px #fff, 0 0 0 3px $janus-color-primary !de
 $input-btn-focus-box-shadow:  0 0 0 1px #fff, 0 0 0 3px $janus-color-primary !default;
 $btn-focus-box-shadow:        $input-btn-focus-box-shadow !default;
 
-$form-select-indicator-color: $gray-600 !default;
+$form-select-indicator-color: $gray-700 !default;
 
 $form-select-box-shadow:      $input-box-shadow !default;
 $form-select-focus-box-shadow: $input-focus-box-shadow !default;
@@ -193,11 +194,12 @@ $input-padding-y:             $janus-input-text-padding-y !default;
 
 $border-width:                1px !default;
 $border-color:                $janus-color-primary !default;
-$input-border-color:          $gray-400;
+$input-border-color:          $gray-500 !default;
 $input-btn-border-width:      $border-width !default;
 $btn-border-width:            $input-btn-border-width !default;
+$input-placeholder-color:     $gray-400 !default;
 
-$form-check-input-border:     1px solid rgba(148, 148, 148, 1) !default;
+$form-check-input-border:     1px solid $input-border-color !default;
 $form-check-input-width:      1em !default;
 $form-check-margin-bottom:    $janus-dropdown-spacer !default;
 $form-check-input-border-radius: $janus-border-radius !default;
@@ -219,11 +221,11 @@ $dropdown-min-width:          12.5rem !default;
 $dropdown-item-padding-y:     $janus-dropdown-item-padding-y !default;
 $dropdown-item-padding-x:     $janus-dropdown-item-padding-x !default;
 
-$dropdown-header-color:       $janus-color-secondary !default;
+$dropdown-header-color:       $secondary !default;
 $dropdown-spacer:             $janus-dropdown-spacer !default;
 $dropdown-border-radius:      $janus-border-radius !default;
 $dropdown-box-shadow:         $box-shadow-sm !default;
-$dropdown-border-color:       $janus-color-secondary-background !default;
+$dropdown-border-color:       $janus-color-gray-500 !default;
 
 $dropdown-divider-bg:         $janus-color-gray-200 !default;
 
@@ -236,7 +238,8 @@ $modal-header-padding-y:      $janus-modal-padding-y !default;
 $modal-header-padding-x:      $janus-modal-padding-x !default;
 $modal-inner-padding:         $janus-modal-padding-x !default;
 
-$btn-font-weight:             $font-weight-normal !default;
+$btn-font-weight:             $font-weight-medium !default;
+$btn-line-height:             1 !default;
 
 //$input-focus-border-color:    $janus-color-primary !default;
 $input-focus-border-color:    tint-color($component-active-bg, 50%) !default;
