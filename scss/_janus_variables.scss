@@ -108,9 +108,9 @@ $font-weight-semibold:        600 !default;
 $font-weight-bold:            700 !default;
 $font-weight-bolder:          bolder !default;
 
-$box-shadow:                  0 .125rem .25rem rgba($black, .5) !default;
-$box-shadow-sm:               0 .0625rem .125rem rgba($black, .5) !default;
-$box-shadow-lg:               0 .125rem .375rem rgba($black, .3) !default;
+$box-shadow:                  0 .25rem .5rem rgba(0, 0, 0, 0.08), 0 .25rem 1rem rgba(0, 0, 0, 0.10) !default;
+$box-shadow-sm:               0 1px .25rem rgba(0, 0, 0, 0.12), 0 .25rem 1rem rgba(0, 0, 0, 0.06) !default;
+$box-shadow-lg:               0 1rem 1.5rem rgba(0, 0, 0, 0.28), 0 .25rem 1rem rgba(0, 0, 0, 0.12) !default;
 
 $component-active-color:      $white !default;
 $component-active-bg:         $primary !default;
@@ -118,7 +118,7 @@ $component-active-bg:         $primary !default;
 $modal-backdrop-opacity:      .15 !default; 
 $modal-content-box-shadow-xs: $box-shadow-lg;
 $modal-content-box-shadow-sm-up: $box-shadow-lg;
-$dropdown-box-shadow: $box-shadow-lg;
+$dropdown-box-shadow: $box-shadow-sm;
 
 $alert-border-width:          0 !default;
 
@@ -225,9 +225,10 @@ $dropdown-header-color:       $secondary !default;
 $dropdown-spacer:             $janus-dropdown-spacer !default;
 $dropdown-border-radius:      $janus-border-radius !default;
 $dropdown-box-shadow:         $box-shadow-sm !default;
-$dropdown-border-color:       $janus-color-gray-500 !default;
-
+$dropdown-border-color:       $gray-100 !default;
 $dropdown-divider-bg:         $janus-color-gray-200 !default;
+
+$offcanvas-box-shadow:        $box-shadow;
 
 $modal-title-line-height:     $janus-modal-title-line-height !default;
 $modal-header-border-color:   transparent !default;
@@ -280,7 +281,7 @@ $prefix:               bs- !default;
   --#{$prefix}btn-focus-shadow-rgb: #{$btn-link-focus-shadow-rgb};
   --#{$prefix}btn-focus-box-shadow: 0 0 0 1px #{$white}, 0 0 0 #{$btn-focus-width} rgba(var(--#{$prefix}btn-focus-shadow-rgb), #{$btn-focus-box-shadow-opacity});
 }
-$popover-box-shadow:          none !default;
+$popover-box-shadow:          $box-shadow-sm !default;
 
 $modal-content-border-radius: $janus-border-radius !default;
 
@@ -290,12 +291,15 @@ $card-cap-padding-y:          1.25rem !default;
 $card-inner-border-radius:    $border-radius !default;
 
 $nav-tabs-link-active-color:  $janus-color-primary !default;
+$nav-underline-link-active-color: $janus-color-primary !default;
+$nav-link-color:              $gray-900 !default;
+
 $nav-tabs-border-color:       $white $white $white;
 $nav-tabs-link-active-border-color: $janus-color-primary !default;
 $nav-link-padding-x:          $janus-nav-link-padding-x !default;
 $nav-link-padding-y:          $janus-nav-link-padding-y !default;
 $nav-link-focus-box-shadow:   inset 0 0 0 0.15rem var(--bs-primary-300);
-$nav-link-font-weight:        600 !default;
+$nav-link-font-weight:        500 !default;
 $nav-tabs-border-width:       0 !default;
 $nav-underline-border-width:  .1875rem !default;
 
