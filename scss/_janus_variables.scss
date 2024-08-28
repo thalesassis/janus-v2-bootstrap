@@ -43,6 +43,9 @@ $gray-800: $janus-color-gray-800 !default;
 $gray-900: $janus-color-gray-900 !default;
 $black: $janus-color-black !default;
 
+$primary-25: tint-color($primary, 98%);
+$primary-50: tint-color($primary, 95%);
+$primary-75: tint-color($primary, 90%);
 $primary-100: tint-color($primary, 80%) !default;
 $primary-200: tint-color($primary, 60%) !default;
 $primary-300: tint-color($primary, 40%) !default;
@@ -77,6 +80,9 @@ $theme-colors: (
   "gray-700":   $gray-700,
   "gray-800":   $gray-800,
   "gray-900":   $gray-900,
+  "primary-25":  $primary-25,
+  "primary-50":  $primary-50,
+  "primary-75":  $primary-75,
   "primary-100":  $primary-100,
   "primary-200":  $primary-200,
   "primary-300":  $primary-300,
@@ -128,9 +134,11 @@ $badge-padding-x:             .5714em;
 $badge-padding-y:             .5714em;
 $badge-border-radius:         $janus-border-radius;
 
-$btn-border-radius:           $janus-border-radius !default;
-$btn-border-radius-lg:        $janus-border-radius !default;
-$btn-border-radius-sm:        $janus-border-radius !default;
+$border-radius:               $janus-border-radius !default;
+$border-radius-sm:            $janus-border-radius-sm !default;
+$border-radius-lg:            $janus-border-radius !default;
+
+/* border-radius-xl and xxl also available */
 
 $btn-box-shadow:              none !default;
 
@@ -166,12 +174,6 @@ $legend-margin-bottom:        .25rem !default;
 $legend-font-size:            $h4-font-size !default;
 $legend-font-weight:          600 !default;
 
-$border-radius:               $janus-border-radius !default;
-$border-radius-sm:            $janus-border-radius !default;
-$border-radius-lg:            $janus-border-radius !default;
-
-/* border-radius-xl and xxl also available */
-
 $input-btn-padding-y:         $janus-input-btn-padding-y !default;
 $input-btn-padding-x:         $janus-input-btn-padding-x !default;
 $input-btn-padding-y-sm:      $janus-input-btn-padding-y-sm !default;
@@ -202,7 +204,7 @@ $input-placeholder-color:     $gray-400 !default;
 $form-check-input-border:     1px solid $input-border-color !default;
 $form-check-input-width:      1em !default;
 $form-check-margin-bottom:    $janus-dropdown-spacer !default;
-$form-check-input-border-radius: $janus-border-radius !default;
+$form-check-input-border-radius: $janus-border-radius-sm !default;
 
 $badge-padding-x:             $janus-badge-padding-x !default;
 $badge-padding-y:             $janus-badge-padding-y !default;
@@ -318,6 +320,9 @@ $table-cell-padding-x:        $janus-table-cell-padding-x !default;
 $list-group-hover-bg: $primary-100;
 $list-group-border-color: $gray-200;
 
+*:focus-visible {
+  outline-color: var(--bs-primary);
+}
 
 .icon-base-font-size {
     width: $janus-icon-base-font-size;
