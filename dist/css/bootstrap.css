@@ -339,7 +339,7 @@ h5, .h5 {
 }
 
 h6, .h6 {
-  font-size: 0.8125rem;
+  font-size: 0.75rem;
 }
 
 p {
@@ -8895,6 +8895,14 @@ textarea.form-control-lg {
 }
 
 /* stylelint-enable */
+.ls-1 {
+  letter-spacing: 0.084em;
+}
+
+.ls-2 {
+  letter-spacing: 0.167em;
+}
+
 .clearfix::after {
   display: block;
   clear: both;
@@ -11765,7 +11773,7 @@ textarea.form-control-lg {
 }
 
 .fs-6 {
-  font-size: 0.8125rem !important;
+  font-size: 0.75rem !important;
 }
 
 .fs-7 {
