@@ -175,7 +175,7 @@ $h2-font-size:                $janus-font-size-base * 1.75 !default;
 $h3-font-size:                $janus-font-size-base * 1.25 !default;
 $h4-font-size:                $janus-font-size-base !default;
 $h5-font-size:                $janus-font-size-base * .875 !default;
-$h6-font-size:                $janus-font-size-base * .8125 !default;
+$h6-font-size:                $janus-font-size-base * .75 !default;
 
 // scss-docs-start display-headings
 $display-font-sizes: (
@@ -380,4 +380,5 @@ $list-group-border-color: $gray-200;
 icon, button svg, a svg {
     line-height: 1;
 }
+
 /* stylelint-enable */
