@@ -6088,150 +6088,250 @@ textarea.form-control-lg {
   --bs-alert-border-color: var(--bs-primary-border-subtle);
   --bs-alert-link-color: var(--bs-primary-text-emphasis);
 }
+.alert-primary a {
+  color: inherit;
+}
+
 .alert-secondary {
   --bs-alert-color: var(--bs-secondary-text-emphasis);
   --bs-alert-bg: var(--bs-secondary-bg-subtle);
   --bs-alert-border-color: var(--bs-secondary-border-subtle);
   --bs-alert-link-color: var(--bs-secondary-text-emphasis);
 }
+.alert-secondary a {
+  color: inherit;
+}
+
 .alert-success {
   --bs-alert-color: var(--bs-success-text-emphasis);
   --bs-alert-bg: var(--bs-success-bg-subtle);
   --bs-alert-border-color: var(--bs-success-border-subtle);
   --bs-alert-link-color: var(--bs-success-text-emphasis);
 }
+.alert-success a {
+  color: inherit;
+}
+
 .alert-info {
   --bs-alert-color: var(--bs-info-text-emphasis);
   --bs-alert-bg: var(--bs-info-bg-subtle);
   --bs-alert-border-color: var(--bs-info-border-subtle);
   --bs-alert-link-color: var(--bs-info-text-emphasis);
 }
+.alert-info a {
+  color: inherit;
+}
+
 .alert-warning {
   --bs-alert-color: var(--bs-warning-text-emphasis);
   --bs-alert-bg: var(--bs-warning-bg-subtle);
   --bs-alert-border-color: var(--bs-warning-border-subtle);
   --bs-alert-link-color: var(--bs-warning-text-emphasis);
 }
+.alert-warning a {
+  color: inherit;
+}
+
 .alert-danger {
   --bs-alert-color: var(--bs-danger-text-emphasis);
   --bs-alert-bg: var(--bs-danger-bg-subtle);
   --bs-alert-border-color: var(--bs-danger-border-subtle);
   --bs-alert-link-color: var(--bs-danger-text-emphasis);
 }
+.alert-danger a {
+  color: inherit;
+}
+
 .alert-light {
   --bs-alert-color: var(--bs-light-text-emphasis);
   --bs-alert-bg: var(--bs-light-bg-subtle);
   --bs-alert-border-color: var(--bs-light-border-subtle);
   --bs-alert-link-color: var(--bs-light-text-emphasis);
 }
+.alert-light a {
+  color: inherit;
+}
+
 .alert-dark {
   --bs-alert-color: var(--bs-dark-text-emphasis);
   --bs-alert-bg: var(--bs-dark-bg-subtle);
   --bs-alert-border-color: var(--bs-dark-border-subtle);
   --bs-alert-link-color: var(--bs-dark-text-emphasis);
 }
+.alert-dark a {
+  color: inherit;
+}
+
 .alert-gray-50 {
   --bs-alert-color: var(--bs-gray-50-text-emphasis);
   --bs-alert-bg: var(--bs-gray-50-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-50-border-subtle);
   --bs-alert-link-color: var(--bs-gray-50-text-emphasis);
 }
+.alert-gray-50 a {
+  color: inherit;
+}
+
 .alert-gray-100 {
   --bs-alert-color: var(--bs-gray-100-text-emphasis);
   --bs-alert-bg: var(--bs-gray-100-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-100-border-subtle);
   --bs-alert-link-color: var(--bs-gray-100-text-emphasis);
 }
+.alert-gray-100 a {
+  color: inherit;
+}
+
 .alert-gray-200 {
   --bs-alert-color: var(--bs-gray-200-text-emphasis);
   --bs-alert-bg: var(--bs-gray-200-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-200-border-subtle);
   --bs-alert-link-color: var(--bs-gray-200-text-emphasis);
 }
+.alert-gray-200 a {
+  color: inherit;
+}
+
 .alert-gray-300 {
   --bs-alert-color: var(--bs-gray-300-text-emphasis);
   --bs-alert-bg: var(--bs-gray-300-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-300-border-subtle);
   --bs-alert-link-color: var(--bs-gray-300-text-emphasis);
 }
+.alert-gray-300 a {
+  color: inherit;
+}
+
 .alert-gray-400 {
   --bs-alert-color: var(--bs-gray-400-text-emphasis);
   --bs-alert-bg: var(--bs-gray-400-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-400-border-subtle);
   --bs-alert-link-color: var(--bs-gray-400-text-emphasis);
 }
+.alert-gray-400 a {
+  color: inherit;
+}
+
 .alert-gray-500 {
   --bs-alert-color: var(--bs-gray-500-text-emphasis);
   --bs-alert-bg: var(--bs-gray-500-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-500-border-subtle);
   --bs-alert-link-color: var(--bs-gray-500-text-emphasis);
 }
+.alert-gray-500 a {
+  color: inherit;
+}
+
 .alert-gray-600 {
   --bs-alert-color: var(--bs-gray-600-text-emphasis);
   --bs-alert-bg: var(--bs-gray-600-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-600-border-subtle);
   --bs-alert-link-color: var(--bs-gray-600-text-emphasis);
 }
+.alert-gray-600 a {
+  color: inherit;
+}
+
 .alert-gray-700 {
   --bs-alert-color: var(--bs-gray-700-text-emphasis);
   --bs-alert-bg: var(--bs-gray-700-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-700-border-subtle);
   --bs-alert-link-color: var(--bs-gray-700-text-emphasis);
 }
+.alert-gray-700 a {
+  color: inherit;
+}
+
 .alert-gray-800 {
   --bs-alert-color: var(--bs-gray-800-text-emphasis);
   --bs-alert-bg: var(--bs-gray-800-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-800-border-subtle);
   --bs-alert-link-color: var(--bs-gray-800-text-emphasis);
 }
+.alert-gray-800 a {
+  color: inherit;
+}
+
 .alert-gray-900 {
   --bs-alert-color: var(--bs-gray-900-text-emphasis);
   --bs-alert-bg: var(--bs-gray-900-bg-subtle);
   --bs-alert-border-color: var(--bs-gray-900-border-subtle);
   --bs-alert-link-color: var(--bs-gray-900-text-emphasis);
 }
+.alert-gray-900 a {
+  color: inherit;
+}
+
 .alert-primary-25 {
   --bs-alert-color: var(--bs-primary-25-text-emphasis);
   --bs-alert-bg: var(--bs-primary-25-bg-subtle);
   --bs-alert-border-color: var(--bs-primary-25-border-subtle);
   --bs-alert-link-color: var(--bs-primary-25-text-emphasis);
 }
+.alert-primary-25 a {
+  color: inherit;
+}
+
 .alert-primary-50 {
   --bs-alert-color: var(--bs-primary-50-text-emphasis);
   --bs-alert-bg: var(--bs-primary-50-bg-subtle);
   --bs-alert-border-color: var(--bs-primary-50-border-subtle);
   --bs-alert-link-color: var(--bs-primary-50-text-emphasis);
 }
+.alert-primary-50 a {
+  color: inherit;
+}
+
 .alert-primary-75 {
   --bs-alert-color: var(--bs-primary-75-text-emphasis);
   --bs-alert-bg: var(--bs-primary-75-bg-subtle);
   --bs-alert-border-color: var(--bs-primary-75-border-subtle);
   --bs-alert-link-color: var(--bs-primary-75-text-emphasis);
 }
+.alert-primary-75 a {
+  color: inherit;
+}
+
 .alert-primary-100 {
   --bs-alert-color: var(--bs-primary-100-text-emphasis);
   --bs-alert-bg: var(--bs-primary-100-bg-subtle);
   --bs-alert-border-color: var(--bs-primary-100-border-subtle);
   --bs-alert-link-color: var(--bs-primary-100-text-emphasis);
 }
+.alert-primary-100 a {
+  color: inherit;
+}
+
 .alert-primary-200 {
   --bs-alert-color: var(--bs-primary-200-text-emphasis);
   --bs-alert-bg: var(--bs-primary-200-bg-subtle);
   --bs-alert-border-color: var(--bs-primary-200-border-subtle);
   --bs-alert-link-color: var(--bs-primary-200-text-emphasis);
 }
+.alert-primary-200 a {
+  color: inherit;
+}
+
 .alert-primary-300 {
   --bs-alert-color: var(--bs-primary-300-text-emphasis);
   --bs-alert-bg: var(--bs-primary-300-bg-subtle);
   --bs-alert-border-color: var(--bs-primary-300-border-subtle);
   --bs-alert-link-color: var(--bs-primary-300-text-emphasis);
 }
+.alert-primary-300 a {
+  color: inherit;
+}
+
 .alert-primary-400 {
   --bs-alert-color: var(--bs-primary-400-text-emphasis);
   --bs-alert-bg: var(--bs-primary-400-bg-subtle);
   --bs-alert-border-color: var(--bs-primary-400-border-subtle);
   --bs-alert-link-color: var(--bs-primary-400-text-emphasis);
 }
+.alert-primary-400 a {
+  color: inherit;
+}
+
 @keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
