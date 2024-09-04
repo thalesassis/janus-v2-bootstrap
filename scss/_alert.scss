@@ -67,6 +67,9 @@
     .btn-primary {
       @extend .btn-#{$state};
     }
+    a {
+      color: inherit;
+    }
   }
 }
 // scss-docs-end alert-modifiers
