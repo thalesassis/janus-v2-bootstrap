@@ -9003,6 +9003,37 @@ textarea.form-control-lg {
   letter-spacing: 0.167em;
 }
 
+h1,
+.h1 {
+  line-height: 1.25;
+}
+
+h2,
+.h2 {
+  line-height: 1.2857142857;
+}
+
+h3,
+.h3 {
+  line-height: 1.4;
+}
+
+h4,
+.h4 {
+  line-height: 1.5;
+}
+
+h5,
+.h5,
+.fs-5 {
+  line-height: 1.2857142857;
+}
+
+h6,
+.h6 {
+  line-height: 1.3333333333;
+}
+
 .clearfix::after {
   display: block;
   clear: both;
