@@ -1,8 +1,8 @@
 .avatar {
   --#{$prefix}btn-focus-shadow-rgb: #{$btn-link-focus-shadow-rgb};
   --#{$prefix}btn-focus-box-shadow: 0 0 0 1px #{$white}, 0 0 0 #{$btn-focus-width} rgba(var(--#{$prefix}btn-focus-shadow-rgb), #{$btn-focus-box-shadow-opacity});
-  min-width: 24px;
-  height: 24px;
+  min-width: 1.5rem;
+  height: 1.5rem;
   padding: 0;
   background-color: var(--#{$prefix}gray-600);
   border: 0;
@@ -57,8 +57,8 @@
   }
 
   &.avatar-sm {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     font-size: .5rem;
     line-height: 1.5rem;
 
@@ -73,8 +73,8 @@
   }
 
   &.avatar-md {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     font-size: 1rem;
 
     svg {
@@ -88,8 +88,8 @@
   }
 
   &.avatar-lg {
-    width: 64px;
-    height: 64px;
+    width: 4rem;
+    height: 4rem;
     font-size: 1.5rem;
 
     svg {
@@ -98,8 +98,8 @@
   }
 
   &.avatar-xl {
-    width: 96px;
-    height: 96px;
+    width: 6rem;
+    height: 6rem;
     font-size: 2rem;
 
     svg {
