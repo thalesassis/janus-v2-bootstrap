@@ -44,9 +44,9 @@ $gray-800: $janus-color-gray-800 !default;
 $gray-900: $janus-color-gray-900 !default;
 $black: $janus-color-black !default;
 
-$primary-25: tint-color($primary, 98%);
-$primary-50: tint-color($primary, 95%);
-$primary-75: tint-color($primary, 90%);
+$primary-25: tint-color($primary, 97%) !default;
+$primary-50: tint-color($primary, 94%) !default;
+$primary-75: tint-color($primary, 91%) !default;
 $primary-100: tint-color($primary, 80%) !default;
 $primary-200: tint-color($primary, 60%) !default;
 $primary-300: tint-color($primary, 40%) !default;
