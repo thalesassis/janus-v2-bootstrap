@@ -9010,6 +9010,10 @@ h6,
   line-height: 1.3333333333;
 }
 
+.fs-9 {
+  line-height: 1.2;
+}
+
 .clearfix::after {
   display: block;
   clear: both;
@@ -11889,6 +11893,10 @@ h6,
 
 .fs-8 {
   font-size: 0.75rem !important;
+}
+
+.fs-9 {
+  font-size: 0.625rem !important;
 }
 
 .fst-italic {
