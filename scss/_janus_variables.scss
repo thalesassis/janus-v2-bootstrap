@@ -354,6 +354,16 @@ $table-cell-padding-x:        $janus-table-cell-padding-x !default;
 $list-group-hover-bg: $primary-100;
 $list-group-border-color: $gray-200;
 
+$zindex-levels: (
+  n1: -1,
+  0: 0,
+  1: 1,
+  2: 2,
+  3: 3,
+  4: 4,
+  5: 5
+) !default;
+
 *:focus-visible {
   outline-color: var(--bs-primary);
 }
